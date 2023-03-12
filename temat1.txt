@@ -1,0 +1,15 @@
+Temat projeku 1. Rejestr pracowników. 
+
+Obecnie program posiada możliwość założenia więcej niż jednej firmy. W każdej firmie możemy 
+dodać lub zwolnić pracownika, zalogować jego czas pracy, urlopu, godzin spędzonych na kawie itp. 
+Możemy także wyświetlić podsumowanie miesiąca i roku. 
+Po wyjściu z programu całość zapisuje się do pliku "najnowszy_stan". 
+Przy pierwszym zalogowaniu trzeba utowrzyć firmy i pracowników. Potem można już korzystać z tego co zapisuje
+się w pliku(trzeba go załadować). Przy każdym zamknięciu programu, zawartość pliku sie aktualizuje. 
+Oprócz tego dołączony jest plik stdin z przykładowymi pracownikami. Program nadal korzysta z wektorów. 
+W programie zastosowane są 3 rodzaje wyjątków. Dwa zostały stworzone przeze mnie w osobnym pliku .h, jeden 
+to wyjątek ostateczny, ogólny, który łapie wszelkie możliwe błędy i zamiana wyjątku już zdefiniowanego
+na ten określony w pliku .h.  
+
+
+
